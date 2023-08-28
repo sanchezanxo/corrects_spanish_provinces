@@ -12,7 +12,7 @@
 */
 
 
-function corrects_spanish_provinces($translated_text, $text, $domain) {
+function csp_corrects_spanish_provinces($translated_text, $text, $domain) {
     if ($domain === 'woocommerce') {
         switch ($translated_text) {
             case 'La Coruña':
@@ -32,6 +32,6 @@ function corrects_spanish_provinces($translated_text, $text, $domain) {
     return $translated_text;
 }
 
-add_filter('gettext', 'corrects_spanish_provinces', 20, 3);
+add_filter('gettext', 'csp_corrects_spanish_provinces', 20, 3);
 
  ?>
