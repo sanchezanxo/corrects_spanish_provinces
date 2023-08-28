@@ -1,8 +1,8 @@
 <?php
 /*
-* Plugin Name: Correct place-names of the provinces of Spain in WooCommerce
+* Plugin Name: Correct place-names of the provinces of Spain
 * Plugin URI: https://github.com/sanchezanxo/corrects_spanish_provinces
-* Description: This plugin corrects the names of the Spanish provinces that have been incorrectly translated into Spanish, and restores their original toponym.
+* Description: This plugin corrects Spanish province names that have been incorrectly translated into Spanish in WooCommerce and restores their original toponym.
 * Version: 1.0.0
 * Author: Anxo Sánchez
 * Author URI: https://anxosanchez.com
